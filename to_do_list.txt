@@ -1,0 +1,70 @@
+AJUSTES PARA O SITE TORRES TAGAWA
+
+1. Corrigir informações erradas ou incompletas
+- Corrigir a seção de convênios (texto atual parece incorreto).
+- Inserir lista real de convênios aceitos.
+- Confirmar telefone.
+- Confirmar endereço.
+- Confirmar CRO das doutoras.
+
+2. Adicionar redes sociais
+- Incluir Instagram da clínica.
+- Incluir link para WhatsApp.
+- Incluir link para Google Reviews.
+- Colocar ícones no header.
+- Colocar ícones no footer.
+- Opcional: pequena chamada perto dos depoimentos.
+
+3. Criar seção "Nossa Clínica"
+- Adicionar fotos reais da clínica.
+- Mostrar recepção.
+- Mostrar sala de atendimento.
+- Mostrar equipamentos.
+- Mostrar ambiente infantil.
+- Pequeno texto explicando o ambiente acolhedor.
+
+4. Criar seção "Primeira Consulta Infantil"
+- Explicar quando levar a criança ao dentista.
+- Explicar como funciona a primeira consulta.
+- Explicar orientação aos pais.
+- Explicar prevenção de cáries.
+- Mostrar que o atendimento é tranquilo para a criança.
+
+5. Melhorar descrição dos tratamentos
+- Expandir descrição de Odontopediatria.
+- Expandir descrição de Ortodontia.
+- Explicar benefícios dos tratamentos.
+- Explicar quando cada tratamento é indicado.
+
+6. Melhorar perfil das doutoras
+- Adicionar formação acadêmica.
+- Adicionar especializações.
+- Adicionar universidades.
+- Adicionar experiência profissional.
+- Adicionar breve biografia.
+
+7. Melhorar depoimentos
+- Usar depoimentos mais completos.
+- Incluir nome do paciente ou responsável.
+- Opcional: incluir foto ou bairro.
+- Destacar avaliação do Google.
+
+8. Criar seção de Perguntas Frequentes (FAQ)
+- Quando levar a criança ao dentista.
+- Criança pode usar aparelho.
+- Quanto tempo dura tratamento ortodôntico.
+- Aparelho dói.
+- Como prevenir cáries em crianças.
+
+9. Adicionar botão de WhatsApp
+- Botão para agendamento rápido.
+- Preferencialmente botão fixo no mobile.
+- Também pode aparecer no hero.
+
+10. Melhorar SEO local
+- Inserir termos como:
+  - odontopediatra em Santos
+  - dentista infantil em Santos
+  - ortodontista em Santos
+  - aparelho dental Santos
+- Incluir essas palavras em textos e títulos.

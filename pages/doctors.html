@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doutoras — Torres Tagawa</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .doctor-full-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      align-items: stretch;
+      margin-bottom: 2rem;
+      transition: all 0.3s ease;
+    }
+    .doctor-full-card:hover { box-shadow: var(--shadow-hover); }
+    .doctor-full-photo {
+      width: 100%;
+      min-height: 320px;
+      overflow: hidden;
+      background: var(--pink-mid);
+    }
+    .doctor-full-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .doctor-full-photo .doctor-photo-placeholder {
+      width: 100%;
+      height: 100%;
+      font-size: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--pink-mid), var(--pink-light));
+    }
+    .doctor-full-info {
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .doctor-full-info h2 { color: var(--burgundy); margin-bottom: 0.3rem; }
+    .doctor-full-info .specialty { color: var(--text-mid); font-style: italic; margin-bottom: 0.3rem; }
+    .doctor-full-info .cro { font-size: 0.85rem; color: var(--text-light); margin-bottom: 1.2rem; }
+    .doctor-full-info p { color: var(--text-mid); font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.8rem; }
+    .doctor-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .doctor-tag {
+      background: var(--pink-light);
+      color: var(--burgundy);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.3rem 0.8rem;
+      border-radius: 4px;
+      border: 1px solid var(--pink-mid);
+    }
+    .page-hero {
+      background: var(--white);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--pink-mid);
+    }
+    .page-hero h1 { color: var(--burgundy); font-size: clamp(2rem, 4vw, 3rem); }
+    .page-hero p { color: var(--text-mid); margin-top: 0.5rem; }
+    @media (max-width: 700px) {
+      .doctor-full-card { grid-template-columns: 1fr; }
+      .doctor-full-photo { min-height: 260px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header id="header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <img src="../images/logo_tagawa.png" alt="Torres Tagawa" class="logo-img" />
+        <span class="logo-text">Torres Tagawa</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="doctors.html" class="active">Doutoras</a></li>
+          <li><a href="treatments.html">Tratamentos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="../index.html#location">Contato</a></li>
+          <li><a href="../index.html#location" class="nav-cta">Agendar Consulta</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <h1>Conheça as Doutoras</h1>
+    <p>Profissionais dedicadas ao cuidado do sorriso da sua família</p>
+  </div>
+
+  <section id="doctors-detail" class="section section-alt">
+    <div class="section-inner">
+
+      <div class="doctor-full-card fade-in">
+        <div class="doctor-full-photo">
+          <img src="../images/doctor-priscilla-tagawa.jpg" alt="Dra. Priscilla Torres Tagawa" />
+        </div>
+        <div class="doctor-full-info">
+          <h2>Dra. Priscilla Torres Tagawa</h2>
+          <p class="specialty">Odontopediatra</p>
+          <p class="cro">CRO-SP 12345</p>
+          <p>
+            Cirurgiã-dentista com atuação em Odontopediatria, dedicada ao cuidado da saúde bucal de bebês, crianças e adolescentes. Possui pós-graduação em Odontologia para Pacientes Especiais pela FOUSP, especialização em Saúde da Família pela UNIFESP e mestrado em Odontologia em Saúde Coletiva pela FOP-UNICAMP.
+          </p>
+          <p>
+            Possui habilitação em Laser e atua como odontopediatra na rede municipal de Cubatão e no corpo clínico do Hospital Infantil Gonzaga. É membro da Rede de Amamentação da Costa da Mata Atlântica.
+          </p>
+          <p>
+            Acredita que uma boa experiência odontológica na infância é fundamental para formar adultos sem medo do dentista, por isso seu atendimento é baseado no cuidado, na paciência e em um ambiente acolhedor.
+          </p>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Odontopediatria</span>
+            <span class="doctor-tag">Pacientes Especiais</span>
+            <span class="doctor-tag">Laser</span>
+            <span class="doctor-tag">Saúde da Família</span>
+            <span class="doctor-tag">Hospital Infantil Gonzaga</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor-full-card fade-in">
+        <div class="doctor-full-photo">
+          <img src="../images/doctor-daniella-tagawa.jpg" alt="Dra. Daniella Torres Tagawa" />
+        </div>
+        <div class="doctor-full-info">
+          <h2>Dra. Daniella Torres Tagawa</h2>
+          <p class="specialty">Ortodontista</p>
+          <p class="cro">CRO-SP 67890</p>
+          <p>
+            Cirurgiã-dentista especialista em Ortodontia, com atuação em Santos – SP. É diplomada pelo Board Brasileiro de Ortodontia e Ortopedia Facial (BBO), certificação que reconhece ortodontistas com elevado padrão de excelência clínica.
+          </p>
+          <p>
+            Possui pós-graduação, mestrado e doutorado em Ortodontia pela Universidade Federal de São Paulo (UNIFESP). Com sólida formação acadêmica e ampla experiência clínica, dedica-se a oferecer tratamentos ortodônticos modernos e personalizados.
+          </p>
+          <p>
+            Busca sempre o equilíbrio entre saúde, função e estética do sorriso — da criança ao adulto.
+          </p>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Ortodontia</span>
+            <span class="doctor-tag">Board BBO</span>
+            <span class="doctor-tag">Alinhadores Invisíveis</span>
+            <span class="doctor-tag">Doutorado UNIFESP</span>
+            <span class="doctor-tag">Ortopedia Facial</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>© 2025 Torres Tagawa Odontologia. Todos os direitos reservados.</p>
+    <p style="margin-top:0.4rem;">
+      <a href="../index.html">Home</a> &nbsp;·&nbsp;
+      <a href="doctors.html">Doutoras</a> &nbsp;·&nbsp;
+      <a href="treatments.html">Tratamentos</a> &nbsp;·&nbsp;
+      <a href="../index.html#location">Contato</a>
+    </p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

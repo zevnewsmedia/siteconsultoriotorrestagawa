@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tratamentos — Torres Tagawa</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .page-hero {
+      background: var(--white);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--pink-mid);
+    }
+    .page-hero h1 { color: var(--burgundy); font-size: clamp(2rem, 4vw, 3rem); }
+    .page-hero p { color: var(--text-mid); margin-top: 0.5rem; }
+    .treatment-full-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      box-shadow: var(--shadow);
+      margin-bottom: 1.5rem;
+      transition: all 0.3s;
+    }
+    .treatment-full-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-3px); }
+    .treatment-full-card h2 {
+      color: var(--burgundy);
+      font-size: 1.5rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .treatment-full-card p { color: var(--text-mid); margin-bottom: 1.2rem; line-height: 1.7; }
+    .treatment-full-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.6rem;
+    }
+    .treatment-full-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.92rem;
+      color: var(--text-mid);
+    }
+    .treatment-full-list li::before {
+      content: '✓';
+      color: var(--burgundy);
+      font-weight: 700;
+    }
+    @media (max-width: 600px) {
+      .treatment-full-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header id="header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C8 2 5 5 5 8c0 2 1 4 2 5.5L9 20h6l2-6.5C18 12 19 10 19 8c0-3-3-6-7-6z"/>
+          </svg>
+        </div>
+        <span class="logo-text">Torres Tagawa</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="doctors.html">Doutoras</a></li>
+          <li><a href="treatments.html" class="active">Tratamentos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="../index.html#location">Contato</a></li>
+          <li><a href="../index.html#location" class="nav-cta">Agendar Consulta</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <h1>Nossos Tratamentos</h1>
+    <p>Soluções completas para a saúde bucal de toda a família</p>
+  </div>
+
+  <section id="treatments-detail" class="section section-alt">
+    <div class="section-inner">
+
+      <div class="treatment-full-card fade-in">
+        <h2>🦷 Odontopediatria</h2>
+        <p>Cuidados especializados para bebês, crianças e adolescentes. Nosso ambiente é pensado para deixar as crianças à vontade e tornar cada consulta uma experiência positiva.</p>
+        <ul class="treatment-full-list">
+          <li>Primeira consulta infantil</li>
+          <li>Prevenção de cáries</li>
+          <li>Aplicação de flúor</li>
+          <li>Cirurgia de freio</li>
+          <li>Selantes dentários</li>
+          <li>Tratamento de cáries</li>
+          <li>Urgências odontológicas</li>
+          <li>Orientação para pais</li>
+        </ul>
+      </div>
+
+      <div class="treatment-full-card fade-in">
+        <h2>😁 Ortodontia</h2>
+        <p>Alinhamento dos dentes e correção da mordida com as técnicas mais modernas do mercado, para crianças, adolescentes e adultos.</p>
+        <ul class="treatment-full-list">
+          <li>Aparelhos Fixos Metálicos</li>
+          <li>Aparelhos Estéticos</li>
+          <li>Alinhadores Invisíveis</li>
+          <li>Ortodontia Infantil</li>
+          <li>Contenção ortodôntica</li>
+          <li>Placa de bruxismo</li>
+          <li>Ortodontia interceptativa</li>
+          <li>Expansão palatina</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>© 2025 Torres Tagawa Odontologia. Todos os direitos reservados.</p>
+    <p style="margin-top:0.4rem;">
+      <a href="../index.html">Home</a> &nbsp;·&nbsp;
+      <a href="doctors.html">Doutoras</a> &nbsp;·&nbsp;
+      <a href="treatments.html">Tratamentos</a> &nbsp;·&nbsp;
+      <a href="../index.html#location">Contato</a>
+    </p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
