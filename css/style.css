@@ -365,6 +365,30 @@ h1, h2, h3, h4 {
   text-shadow: 0 1px 8px rgba(255,255,255,0.9);
 }
 
+.hero-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  max-width: 480px;
+}
+
+.hero-extra {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  max-width: 480px;
+}
+
 .hero-tags {
   display: flex;
   flex-wrap: wrap;
@@ -387,6 +411,7 @@ h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+  margin-top: 1.2rem;
 }
 
 .hero-float {
@@ -416,6 +441,66 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
+}
+
+/* ======================================================
+   Hero Float Group
+====================================================== */
+.hero-floats-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  background: var(--white);
+  border-radius: 50px;
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  position: absolute;
+  bottom: 8rem;
+  right: 2.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  white-space: nowrap;
+  z-index: 10;
+  width: auto;
+}
+
+.hero-floats-group .hero-float {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  position: static;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  animation: none;
+}
+
+.hero-floats-group .hero-float-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.hero-float-divider {
+  width: 1px;
+  height: 28px;
+  background: var(--pink-mid);
+  flex-shrink: 0;
+}
+
+#hero .btn-outline {
+  background: rgba(255,255,255,0.15);
+  border-color: var(--text-dark);
+  color: var(--text-dark);
+  backdrop-filter: blur(4px);
+}
+
+#hero .btn-outline:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--burgundy);
 }
 
 /* ======================================================
@@ -680,7 +765,7 @@ h1, h2, h3, h4 {
 }
 
 /* ======================================================
-   Nossa Clínica — FIXED IMAGE SIZING
+   Nossa Clínica
 ====================================================== */
 #clinica { background: var(--white); }
 
@@ -1301,6 +1386,7 @@ h1, h2, h3, h4 {
   .hero-actions { justify-content: center; }
   .hero-subtitle { margin: 0 auto 1.8rem; }
   .hero-float-1, .hero-float-2 { display: none; }
+  .hero-floats-group { display: none; }
 
   .specialties-grid,
   .doctors-grid,
@@ -1315,9 +1401,7 @@ h1, h2, h3, h4 {
     height: auto;
   }
 
-  .clinica-main {
-    height: 280px;
-  }
+  .clinica-main { height: 280px; }
 
   .clinica-side {
     grid-template-rows: unset;
@@ -1361,9 +1445,7 @@ h1, h2, h3, h4 {
     height: auto;
   }
 
-  .clinica-side .clinica-card {
-    height: 160px;
-  }
+  .clinica-side .clinica-card { height: 160px; }
 
   .clinica-features { grid-template-columns: repeat(2, 1fr); }
 
