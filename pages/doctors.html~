@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X4M85MWRSN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X4M85MWRSN');
-</script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Doutoras — Torres Tagawa</title>
@@ -74,21 +64,6 @@
       border-radius: 4px;
       border: 1px solid var(--pink-mid);
     }
-    .doctor-full-info ul {
-      color: var(--text-mid);
-      font-size: 0.95rem;
-      line-height: 1.7;
-      margin: 0.4rem 0 0.8rem 1.2rem;
-      padding: 0;
-    }
-    .doctor-full-info ul li { margin-bottom: 0.3rem; }
-    .doctor-cta {
-      margin-top: 1rem;
-      font-size: 0.95rem;
-      color: var(--text-mid);
-      font-style: italic;
-      line-height: 1.6;
-    }
     .page-hero {
       background: var(--white);
       padding: 4rem 2rem 3rem;
@@ -142,23 +117,20 @@
           <p class="specialty">Odontopediatra</p>
           <p class="cro">CRO-SP 12345</p>
           <p>
-            Cirurgiã-dentista especializada em Odontopediatria, dedicada ao cuidado da saúde bucal de bebês, crianças e adolescentes. Possui formação sólida com pós-graduação em Odontologia para Pacientes Especiais pela FOUSP, especialização em Saúde da Família pela UNIFESP e mestrado em Odontologia em Saúde Coletiva pela FOP-UNICAMP.
+            Cirurgiã-dentista com atuação em Odontopediatria, dedicada ao cuidado da saúde bucal de bebês, crianças e adolescentes. Possui pós-graduação em Odontologia para Pacientes Especiais pela FOUSP, especialização em Saúde da Família pela UNIFESP e mestrado em Odontologia em Saúde Coletiva pela FOP-UNICAMP.
           </p>
           <p>
-            Atua também na rede municipal de Cubatão e no Hospital Infantil Gonzaga, com experiência no atendimento de crianças em diferentes contextos — inclusive pacientes com necessidades especiais.
+            Possui habilitação em Laser e atua como odontopediatra na rede municipal de Cubatão e no corpo clínico do Hospital Infantil Gonzaga. É membro da Rede de Amamentação da Costa da Mata Atlântica.
           </p>
           <p>
-            Seu principal objetivo é proporcionar uma experiência tranquila e positiva desde a primeira consulta. O atendimento é feito com paciência, linguagem lúdica e respeito ao tempo de cada criança, ajudando a reduzir o medo e construir uma relação de confiança com o dentista desde cedo.
-          </p>
-          <p>
-            Acredita que a prevenção é o caminho para um sorriso saudável ao longo da vida, orientando os pais de forma clara e prática em cada etapa do desenvolvimento infantil.
+            Acredita que uma boa experiência odontológica na infância é fundamental para formar adultos sem medo do dentista, por isso seu atendimento é baseado no cuidado, na paciência e em um ambiente acolhedor.
           </p>
           <div class="doctor-tags">
             <span class="doctor-tag">Odontopediatria</span>
             <span class="doctor-tag">Pacientes Especiais</span>
+            <span class="doctor-tag">Laser</span>
             <span class="doctor-tag">Saúde da Família</span>
             <span class="doctor-tag">Hospital Infantil Gonzaga</span>
-            <span class="doctor-tag">Prevenção Infantil</span>
           </div>
         </div>
       </div>
@@ -172,29 +144,13 @@
           <p class="specialty">Ortodontista</p>
           <p class="cro">CRO-SP 67890</p>
           <p>
-            Cirurgiã-dentista especialista em Ortodontia, com atuação em Santos – SP. É certificada pelo Board Brasileiro de Ortodontia e Ortopedia Facial (BBO), uma das mais importantes certificações de excelência clínica na área.
+            Cirurgiã-dentista especialista em Ortodontia, com atuação em Santos – SP. É diplomada pelo Board Brasileiro de Ortodontia e Ortopedia Facial (BBO), certificação que reconhece ortodontistas com elevado padrão de excelência clínica.
           </p>
           <p>
-            Essa certificação é concedida a ortodontistas que demonstram alto nível de precisão no diagnóstico, planejamento e execução dos tratamentos. No Brasil, entre cerca de 31 mil ortodontistas, apenas uma pequena parcela possui esse título — o que reforça o alto grau de exigência e qualidade envolvido.
+            Possui pós-graduação, mestrado e doutorado em Ortodontia pela Universidade Federal de São Paulo (UNIFESP). Com sólida formação acadêmica e ampla experiência clínica, dedica-se a oferecer tratamentos ortodônticos modernos e personalizados.
           </p>
           <p>
-            Possui pós-graduação, mestrado e doutorado em Ortodontia pela UNIFESP, com ampla experiência em tratamentos ortodônticos modernos e personalizados para crianças, adolescentes e adultos.
-          </p>
-          <p>
-            Trabalha com aparelhos fixos e alinhadores invisíveis, sempre com foco em resultados estéticos e funcionais. Cada tratamento é planejado de forma individualizada, buscando equilíbrio entre saúde, função e estética do sorriso.
-          </p>
-          <p>
-            Seu acompanhamento próximo durante todo o processo garante segurança, previsibilidade e tranquilidade para o paciente.
-          </p>
-          <p><strong>Ao escolher uma ortodontista certificada pelo Board, você conta com:</strong></p>
-          <ul>
-            <li>Diagnóstico preciso</li>
-            <li>Planejamento individualizado</li>
-            <li>Técnicas atualizadas</li>
-            <li>Resultados estéticos e funcionais de alta qualidade</li>
-          </ul>
-          <p class="doctor-cta">
-            Se você busca um tratamento ortodôntico de excelência, agende uma avaliação e conheça um atendimento baseado em alto padrão clínico e evidência científica.
+            Busca sempre o equilíbrio entre saúde, função e estética do sorriso — da criança ao adulto.
           </p>
           <div class="doctor-tags">
             <span class="doctor-tag">Ortodontia</span>
